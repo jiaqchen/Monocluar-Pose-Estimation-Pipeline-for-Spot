@@ -24,7 +24,7 @@ light.set_energy(300)
 
 # Set the camera to be in front of the object
 cam_pose = bproc.math.build_transformation_mat([0, -5, 0], [np.pi / 2, 0, 0])
-bproc.camera.add_camera_pose(cam_pose)
+bproc.camera.(cam_pose)
 
 # Render the scene
 data = bproc.renderer.render()
